@@ -1,0 +1,23 @@
+{
+  "templates": {
+    "main_contacts": {
+      "greeting": "Hi! Thanks for reaching out. I'm currently using an auto-assistant but I'll respond personally soon! 😊",
+      "informative": "I've received your message and will get back to you shortly with a proper response. This is important to me!",
+      "busy": "I'm currently in a meeting/busy, but I saw your message. Will respond as soon as I'm free! 🚀",
+      "emergency": "If this is urgent, please call me directly. Otherwise, I'll respond within an hour!"
+    },
+    "time_pass_contacts": {
+      "default": "Hey! Thanks for the message. I'll get back to you when I can! 👍",
+      "greeting": "Hello! Auto-reply here - I'll respond when I'm available!",
+      "busy": "Currently busy, but will catch up later! 😎"
+    },
+    "not_important": {
+      "none": ""
+    }
+  },
+  "ai_prompts": {
+    "main_contacts": "You are responding to a VIP contact. Be personal, informative, and helpful. Show that their message is important. Keep it brief but warm.",
+    "time_pass_contacts": "You are responding to a casual contact. Be friendly but brief. Use a casual tone with light emojis.",
+    "not_important": "No response needed."
+  }
+}

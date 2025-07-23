@@ -1,0 +1,31 @@
+{
+  "bot_settings": {
+    "name": "WhatsApp Auto Agent",
+    "version": "1.0.0",
+    "auto_reply_enabled": true,
+    "use_ai_responses": true,
+    "fallback_message": "Thank you for your message. I'll get back to you soon! 🤖",
+    "response_templates": {
+      "greeting": "Hello! Thanks for reaching out. How can I assist you today?",
+      "goodbye": "Thank you for chatting! Have a great day! 👋",
+      "default": "I've received your message and will respond shortly."
+    }
+  },
+  "ai_settings": {
+    "temperature": 0.7,
+    "max_tokens": 150,
+    "system_prompt": "You are a helpful WhatsApp assistant. Respond naturally, briefly, and friendly. Use emojis appropriately but don't overuse them.",
+    "context_memory": 5
+  },
+  "browser_settings": {
+    "implicit_wait": 10,
+    "explicit_wait": 20,
+    "retry_attempts": 3,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "security_settings": {
+    "rate_limit_per_minute": 10,
+    "max_message_length": 1000,
+    "allowed_file_types": [".txt", ".pdf", ".jpg", ".png"]
+  }
+}

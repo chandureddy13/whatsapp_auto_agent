@@ -1,0 +1,71 @@
+{
+  "contact_tiers": {
+    "main_contacts": {
+      "description": "VIP contacts - Full attention with notifications",
+      "by_name": [
+        "Mom",
+        "Dad", 
+        "Boss",
+        "Important Client",
+        "Best Friend"
+      ],
+      "by_phone": [
+        "+1234567890",
+        "+0987654321"
+      ],
+      "settings": {
+        "open_and_read": true,
+        "play_sound": true,
+        "reply_mode": "informative_ai",
+        "mark_as_read": true,
+        "priority_level": "high"
+      }
+    },
+    "time_pass_contacts": {
+      "description": "Casual contacts - Basic auto-replies",
+      "by_name": [
+        "College Friend",
+        "Neighbor",
+        "Gym Buddy"
+      ],
+      "by_phone": [
+        "+1122334455"
+      ],
+      "settings": {
+        "open_and_read": false,
+        "play_sound": false,
+        "reply_mode": "template_basic",
+        "mark_as_read": true,
+        "priority_level": "medium"
+      }
+    },
+    "not_important": {
+      "description": "Low priority - Log only, no replies",
+      "by_name": [
+        "Spam Contact",
+        "Promotional"
+      ],
+      "by_phone": [
+        "+9999999999"
+      ],
+      "by_keywords": [
+        "promotion",
+        "offer",
+        "spam",
+        "marketing"
+      ],
+      "settings": {
+        "open_and_read": false,
+        "play_sound": false,
+        "reply_mode": "none",
+        "mark_as_read": false,
+        "priority_level": "low"
+      }
+    }
+  },
+  "default_settings": {
+    "uncategorized_contacts": "not_important",
+    "new_contact_behavior": "ask_user",
+    "auto_categorize": false
+  }
+}
